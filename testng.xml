@@ -1,0 +1,19 @@
+<suite name="All Test Suite">
+
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Vicky/Documents/NaveenAPI/NaveenProject3">
+        <classes>
+            <class name="com.qa.gorest.createUserTest">
+                <methods>
+                    <include name="m1"/>
+                </methods>
+            </class>
+            <class name="com.qa.gorest.getUserTest">
+                <methods>
+                    <include name="m1"/>
+                    <include name="m2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
