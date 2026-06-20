@@ -36,7 +36,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/BikramChatterjee9/APIDemo.git'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\Users\Vicky\Documents\NaveenAPI\NaveenProject3\testng.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\\Users\\Vicky\\Documents\\NaveenAPI\\NaveenProject3\\testng.xml"
                     
                 }
             }
@@ -56,7 +56,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/BikramChatterjee9/APIDemo.git'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\Users\Vicky\Documents\NaveenAPI\NaveenProject3\testng.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\\Users\\Vicky\\Documents\\NaveenAPI\\NaveenProject3\\testng.xml"
                     
                 }
             }
@@ -100,7 +100,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/BikramChatterjee9/APIDemo.git'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\Users\Vicky\Documents\NaveenAPI\NaveenProject3\testng.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\\Users\\Vicky\\Documents\\NaveenAPI\\NaveenProject3\\testng.xml"
                     
                 }
             }
@@ -130,7 +130,7 @@ pipeline
             steps {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     git 'https://github.com/BikramChatterjee9/APIDemo.git'
-                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\Users\Vicky\Documents\NaveenAPI\NaveenProject3\testng.xml"
+                    bat "mvn clean test -Dsurefire.suiteXmlFiles=C:\\Users\\Vicky\\Documents\\NaveenAPI\\NaveenProject3\\testng.xml"
                     
                 }
             }
